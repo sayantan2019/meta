@@ -1,0 +1,176 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F2F4F7;
+}
+.header{
+    
+    background-color: #F2F4F7;
+    height: 710px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    
+
+}
+
+.footer{
+    border-style: 0solid;
+    color: red;
+    height: 150px;
+    width: auto;
+    margin: 10px;
+    position: relative;
+    left: -10px;
+    
+
+}
+
+.left-header{
+    border-style: solid;
+    color: #F2F4F7;
+    height: 600px;
+    width: 45%;
+    margin: 20px;
+    margin-right:20px ;
+}
+
+.fb-text {
+    border: 0px solid black; /* Corrected the border syntax */
+     /* This sets the text color */
+    height: auto; /* Keep height dynamic */
+    width: 55%; /* Set width to 50% of the parent container */
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin: 0 auto; /* Center the entire .fb-text div within the parent */
+    text-align: center; /* Align text inside the element */
+    position: relative;
+    margin-top: 180px;
+    margin-left: 100px ;
+}
+
+.tag-line{
+    color: black;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    position: relative;
+    margin-left: 137px;
+    margin-top: -10px;
+    width: 500px;
+}
+
+
+.right-header{
+    border-style: solid #F2F4F7;
+    width: 45%;
+    margin: 20px;
+    float: right;
+    position: relative;
+    margin-top: -625px;
+    margin-bottom: 1px;
+}
+
+.login-box{
+    border: 1px solid #F2F4F7;
+    border-radius: 10px;
+    width: 400px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 22%;
+    background-color: white;
+    margin-top: 100px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    
+}
+
+input[id="username"], input[id="password"]{
+    width: 350px;
+    margin: 14px;
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: #F2F4F7;
+    
+    
+}
+
+button{
+    width: 374px;
+    margin: 14px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: transparent;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+
+
+}
+
+.forgotten-password{
+    margin-bottom: -15px;
+}
+
+.forgotten-password a:hover{
+    text-decoration:underline !important;
+    
+
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    justify-content: center;
+    margin-bottom: -15px;
+    
+    
+}
+
+.line{
+    flex-grow: 1;
+    height: 1px;
+    width: 80%;
+    display: flex;
+    color: #F2F4F7;
+    margin-bottom: 0px;
+
+
+}
+
+.create-act{
+    width: 250px;
+    margin: 50px;
+    margin-left: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: transparent;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    margin-bottom: 20px;
+
+}
+
+.page a p{
+    margin-bottom: -400px;
+}

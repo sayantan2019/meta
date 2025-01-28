@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Proxima Nova', sans-serif;
+  padding: 40px;
+
+}
+
+.container {
+  display: flex;
+  margin-top: 40px;
+
+  gap: 30px;
+}
+
+.instaTextLogo {
+  width: 250px;
+  margin-bottom: 0px;
+  padding: 10px 10px 5px 5px;
+
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #f9f9f9;
+  
+}
+
+.divider p {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #8e8e8e;
+
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+  bottom: 70px;
+  
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  border-radius: #fbfbfb;
+  font-size: 14px;
+}
+
+.box {
+  width: 350px;
+  border: 1px solid #dbdbdb;
+  padding: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+  
+  overflow: auto;
+
+}
+
+.photos-videos-text p{
+  color: #5e5b5b;
+  font-size: 15px;
+  font-weight: 200px;
+  position: relative;
+  padding-bottom: -60px;
+  
+}
+
+.fb-img {
+  width: 20px;
+  height: 20px;
+  margin-top: 1px;
+  position: relative;
+  top: 4px;
+  right: 4px;
+  
+
+}
+
+.facebook-login {
+  color: #4897f0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.signin-box input {
+  width: 100%;
+  padding: 10px;
+  margin:  0 auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 12px;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sign-up-btn:hover {
+  background-color: #007ac6;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: #00376b;
+  text-decoration: none;
+  margin-top: 30px;
+  display: block;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-with-facebook {
+  width: 100%;
+  padding: 10px;
+  margin: 70px 0;
+  background-color: #0095f6;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  
+
+}
+
+.q {
+  color: #fff;
+  background-color: #0095f6;
+  font-size: 14px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.qr {
+
+  color: #000000;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  position: relative;
+  bottom: 65px;
+  border: 0.1px solid #ddd;
+
+}
+
+
+.sign-up-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #0095f6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.signup-box {
+
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  text-align: center;
+  width: 350px;
+
+}
+
+.signup-box a {
+  color: #3897f0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-box p {
+  font-size: 14px;
+}
+
+.terms-condition{
+  font-size: 14px;
+  color: #00376b;
+  text-decoration: none;
+  margin-top: 30px;
+  display: block;
+}
+
+.terms-condition a{
+  color:  #00376b;
+  text-decoration: none;
+  
+}
+
+.terms-condition p2{
+  position: relative;
+  top: 10px;
+  color: #5e5b5b;
+  font-size: 13px;
+}
+.terms-condition p{
+  color: #5e5b5b;
+  font-size: 13px;
+  position: relative;
+  bottom: 20px;
+}
+
+.have-an-account{
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  text-align: center;
+  width: 350px;
+  text-decoration: none;
+  font-size: 12.5px;
+}
+
+.have-an-account a{
+  color: #3897f0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12.5px;
+}
+
+
+.download-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.download-section p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.app-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-btn {
+  height: 40px;
+  margin: 0 5px;
+}

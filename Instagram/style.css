@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Proxima Nova', sans-serif;
+    padding: 40px; 
+    
+  }
+  
+.container {
+    display: flex;
+    margin-top: 40px;
+    
+    gap: 30px;
+  }
+.instaTextLogo {
+    width: 250px;
+    margin-bottom: 0px;
+    padding: 10px 10px 5px 5px;
+    
+  }
+
+  .line{
+    flex-grow: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+  
+  .divider p{
+    margin: 0 10px;
+    font-size: 14px;
+    color: #8e8e8e;
+  }
+  .divider{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+    
+  
+.right-section {
+    width: 350px;
+    border: 0px solid #dbdbdb;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    border-radius: #fbfbfb;
+    font-size: 14px;
+  }
+
+.box{
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    padding: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+    overflow: auto;
+
+}
+
+.fb-img{
+  width: 20px;
+  height: 20px;
+  margin-top: 1px;
+  position: relative;
+  top: 4px;
+  right: 4px;
+  
+}
+.facebook-login{
+  color: #4897f0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.signin-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}  
+
+.login-btn:hover {
+    background-color: #007ac6;
+}
+
+.forgot-password{
+    font-size: 14px;
+    color: #00376b;
+    text-decoration: none;
+    margin-top: 30px;
+    display: block;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.loginbtn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+  }
+
+  .loginbtn:disabled{
+    background-color: rgba(129, 203, 251, 1);
+    color: #fff;
+    cursor: not-allowed;
+  }
+
+.signup-box {
+  
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+  
+  }
+  
+.signup-box a{
+    color: #3897f0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+.signup-box p{
+    font-size: 14px;
+  }
+  
+.download-section{
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+.download-section p{
+    margin-bottom: 20px;
+  }
+  
+.app-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.app-btn{
+    height: 40px;
+    margin: 0 5px;
+  }
